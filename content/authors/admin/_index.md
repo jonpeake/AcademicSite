@@ -10,7 +10,7 @@ role: PhD Candidate in Marine Resource Assessment, Fisheries Biologist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of South Florida \n
+  - name: University of South Florida
           College of Marine Science
     url: https://www.usf.edu/marine-science/
   - name: Florida Fish and Wildlife Research Institute
@@ -60,7 +60,7 @@ social:
 # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/PeakeCV_2022.pdf
+    link: /uploads/PeakeCV_2022.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

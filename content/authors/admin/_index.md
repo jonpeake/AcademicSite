@@ -60,7 +60,7 @@ social:
 # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: /uploads/PeakeCV_2022.pdf
+    link: /uploads/Peake_CV_2022.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

@@ -6,8 +6,13 @@ widget: pages
 # This file represents a page section.
 headless: true
 
+# Activate widget
+active: true
+
 # Order that this section appears on the page.
-weight: 60
+weight: 30
+
+
 
 title: Recent Posts
 subtitle:
@@ -33,6 +38,6 @@ content:
 
 design:
   # Choose a view for the listings:
-  view: compact
-  columns: '2'
+  view: card
+  # columns: '2'
 ---

@@ -75,3 +75,4 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+disablePathToLower: true

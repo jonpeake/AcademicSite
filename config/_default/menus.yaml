@@ -5,23 +5,61 @@
 
 main:
   - name: Home
-    url: '#about'
+    url: '#hero'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: About
+    identifier: About
+    url: '/about/'
     weight: 20
-  - name: Projects
-    url: '#projects'
+  - name: Posts
+    url: '/post/'
     weight: 30
-  - name: Talks
-    url: '#talks'
+  - name: Projects
+    url: '/project/'
     weight: 40
+  - parent: Projects
+    name: Metacommmunity Dynamics
+    url: '/project/metacommunity-project'
+    weight: 41
+  - parent: Projects
+    name: Forage Fish Community Dynamics
+    url: '/project/foragefish-project'
+    weight: 42
+  - parent: Projects
+    name: Pinfish Population Dynamics
+    url: '/project/pinfish-project'
+    weight: 43
+  - parent: Projects
+    name: Lionfish Feeding Ecology
+    url: '/project/lionfish-project'
+    weight: 44
+
   - name: Publications
-    url: '#featured'
+    url: '/publication/'
     weight: 50
   - name: Contact
     url: '#contact'
     weight: 60
+  - name: CV
+    url: /uploads/Peake_CV_2022.pdf
+    weight: 70
+  - name: "More..."
+    url: "#"
+    weight: 80
+    hasChildren: true
+  - parent: "More..."
+    name: USF Fish Ecology Lab
+    url: 'https://www.marine.usf.edu/fishecology/'
+  - parent: "More..."
+    name: USF College of Marine Science
+    url: 'https://www.marine.usf.edu/'
+  - parent: "More..."
+    name: FWC Fish and Wildlife Research Institute
+    url: 'https://myfwc.com/research/'
+  - parent: "More..."
+    name: FWRI Fisheries-Independent Monitoring
+    url: 'https://myfwc.com/research/saltwater/reef-fish/monitoring/fim-stratified-random-sampling/'
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

@@ -36,7 +36,7 @@ content:
 design:
   # Choose a view for the listings:
   view: citation
-  columns: '2'
+  columns: '1'
 ---
 
 {{% callout note %}}

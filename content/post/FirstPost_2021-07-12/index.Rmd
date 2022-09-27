@@ -1,0 +1,54 @@
+---
+title: "First Post!"
+author: "Jonathan Peake"
+date:  2021-07-12
+output: 
+  html_document: 
+    css: assets/scss/custom.scss
+categories: ['Introduction']
+tags: ["general", "introduction"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+## Hello everyone, I'm Jon!
+
+I will be posting semi-regular updates on my career and research endeavors, miscellaneous thoughts and musings related to my experiences in academia, and cool science content from around the web. Please feel free to explore the rest of my [website](/home/), and don't hesitate to [contact me](/home/#contact) to get in touch.
+
+## About Me
+
+#### For a TLDR version, check out the [About](/authors/admin) section of the website.
+
+![Gray snapper (Lutjanus griseus) are an abundant and ubiquitous species of reef-associated fish that inhabit much of the subtropical to tropical Western Atlantic, including the Gulf of Mexico. This specimen was collected for a study comparing fish production on natural and artificial reefs on the West Florida Shelf.](/img/me-fish.jpg)
+
+I was born and raised in the suburbs of Baltimore, Maryland, just a half hour from the Chesapeake Bay and a few hours from the Atlantic Ocean. I have always felt a deep connection to the natural world, and knew from an early age that I wanted to apply my curiosity to a career in the marine sciences.
+
+My passion led me to pursue a Bachelor of Science with majors in marine science and biology from the University of Miami. After an epiphanous first semester re-ignited my love of mathematics, I took on the challenge of a third major in mathematics, with a concentration in probability and statistics. I became fascinated by ecological theory and questions relating to species distributions, community structure, and interactions among species and their habitats, and I found my way to the University of South Florida College of Marine Science to pursue these questions under the guidance of Dr. Christopher Stallings as a PhD student in the [Fish Ecology Lab](https://marine.usf.edu/fishecology).
+
+My dissertation research focuses on broad-scale patterns of fish community assembly in the Western Atlantic using the metacommunity concept, which seeks to reconcile the local and regional processes that influence the distribution of organisms in space and time. Specifically, I am applying pattern-based and mechanistic analytical methods to several large publicly-available fish community composition and abundance datasets to investigate spatiotemporal dynamics of marine metacommunities in the Gulf of Mexico and Caribbean. You can read more about this project [here](/project/metacommunity-project/).
+
+In addition to my work on marine metacommunities, I also have interests in diet and feeding ecology of marine fishes, dynamics of fishes across multiple scales of space, time, and biological organization, and fish habitat use and production over time.
+
+Outside of my academic interests, I love to fish, dive, and participate in all manner of water sports. I am an avid sports fan, and you can often catch me watching an Orioles, Ravens, or Miami Hurricanes game on TV or in person. I also enjoy hiking, camping, and backpacking, and I plan to spend five months hiking the Appalachian Trail once I finish my doctoral program. I love to travel and explore new restaurants, breweries, and museums wherever I go.
+
+## About this Blog
+
+My future posts will cover a broad range of topics, but most of them will center around the following themes:
+
+-   Updates and insights from my research projects
+
+-   Cool findings gleaned from conferences, papers, seminars, and around the web
+
+-   Tips and tricks for statistical computing using R, RStudio, and TidyVerse
+
+-   Embracing the Open Science Movement
+
+-   Experiences navigating the wild world of academia
+
+-   Random thoughts and musings about life, the universe, and everything
+
+-   My journey thru-hiking the Appalachian Trail
+
+This is my first attempt at a blog, so I ask that you bear with me through the growing pains of a newbie content creator. If you have any suggestions, corrections, or requests for posts you would like to see, please feel free to [contact me](/home/#contact) and I will do my best! I am continuously looking to improve as a writer and to learn how best to engage readers, so I welcome any feedback. Thank you for reading, and stay tuned for future posts!

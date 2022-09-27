@@ -7,7 +7,10 @@ widget: featurette
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 61
+
+# Active
+active: true
 
 title: Skills
 subtitle:
@@ -16,18 +19,52 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 90%
-    icon: r-project
-    icon_pack: fab
-    name: R
-  - description: 100%
-    icon: chart-line
-    icon_pack: fas
-    name: Statistics
-  - description: 10%
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
+  - icon: 'anchor'
+    icon_pack: 'fas'
+    name: '**Field**'
+    description: |
+      ∙ Motorboat Operation ∙  
+      ∙ Scientific Diving ∙  
+      ∙ Visual Fish Survey ∙  
+      ∙ Spearfish Sampling ∙  
+      ∙ Hook-and-Line Sampling ∙  
+      ∙ Haul and Bag Seine Sampling ∙  
+      ∙ Trawl Sampling ∙
+  
+  - icon: 'flask'
+    icon_pack: 'fas'
+    name: '**Laboratory**'
+    description: |
+      ∙ PCR ∙  
+      ∙ LC-MS ∙  
+      ∙ Gel electrophoresis ∙  
+      ∙ Flow cytometry ∙  
+      ∙ Ethanol extraction ∙  
+      ∙ Microscopy ∙  
+      ∙ Otolith extraction and analysis ∙  
+      ∙ Larval reef fish identification ∙  
+      ∙ Stomach content identification ∙  
+      ∙ Stable isotope analysis ∙  
+      ∙ Fish dissection ∙  
+      ∙ Fish eye lens delamination ∙  
+      ∙ Batch fecundity estimation ∙  
+  
+  - icon: 'laptop-code'
+    icon_pack: 'fas'
+    name: '**Technical**'
+    description: |
+      ∙ R Programming ∙  
+      ∙ MATLAB ∙  
+      ∙ Scilab ∙  
+      ∙ PRIMER ∙  
+      ∙ Python Programming ∙
+      ∙ SQL Database Management ∙
+      ∙ Access Database Management ∙  
+      ∙ Visual Basic for Applications ∙  
+      ∙ Geographic Information Systems ∙  
+      ∙ Windows OS, Linux OS, ChromeOS ∙  
+      ∙ Microsoft Office ∙  
+  
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
@@ -42,4 +79,9 @@ feature:
 #  icon_pack: "custom"
 #  name: "Surfing"
 #  description: "90%"
+
+design:
+  background:
+    color: "#e1e5f2"
+
 ---

@@ -5,7 +5,7 @@ headless: true  # This file represents a page section.
 active: true  # Activate this widget? true/false
 weight: 10  # Order that this section will appear.
 
-title: Jonathan Peake
+title: Hi, I'm Jon!
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media: "headshot.jpg"
@@ -42,7 +42,5 @@ cta_alt:
   url: "#contact"
   label: "Contact me"
 ---
-
-# **Hi, I'm Jon!**
 
 I am a PhD Candidate at the University of South Florida College of Marine Science, as well as a research scientist for the Florida Fish and Wildife Research Institute. My research interests include marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, open source science, spatial and community analysis in R, and species distribution modeling. Check out my latest projects and updates below!

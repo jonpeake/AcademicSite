@@ -73,7 +73,7 @@ item:
     date_end: '2016-05-30'
     organization: University of Miami
     
-  - title: 'Eagle Scout
+  - title: 'Eagle Scout'
     date_start: '2011-07-15'
     organization: Boy Scouts of America
 

@@ -81,7 +81,7 @@ feature:
 #  description: "90%"
 
 design:
-  background:
-    color: "#e1e5f2"
+  # background:
+  #   color: "#e1e5f2"
 
 ---

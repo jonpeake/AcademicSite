@@ -68,6 +68,6 @@ item:
 
 
 design:
-  background:
-    color: "#A2B2C6"
+  # background:
+  #   color: "#A2B2C6"
 ---

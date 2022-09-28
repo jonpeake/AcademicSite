@@ -43,7 +43,7 @@ main:
   - name: CV
     url: /uploads/Peake_CV_2022.pdf
     weight: 70
-  - name: "More..."
+  - name: "Affiliated Sites"
     url: "#"
     weight: 80
     hasChildren: true

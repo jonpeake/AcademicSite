@@ -82,6 +82,6 @@ item:
 
 design:
   columns: '1'
-  background:
-    color: "#e1e5f2"
+  # background:
+  #   color: "#e1e5f2"
 ---

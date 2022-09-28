@@ -34,6 +34,6 @@ experience:
       - Informal teaching aid to an Introduction to R Statistical Programming course (Spring 2017) for CMS graduate students and faculty/staff
 
 design:
-  background: 
-    color: "#A2B2C6"
+  # background: 
+  #   color: "#A2B2C6"
 ---

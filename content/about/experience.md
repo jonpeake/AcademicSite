@@ -74,6 +74,6 @@ experience:
     description: Spent two summers in the Living Marine Resources Cooperative Science Center program working under Dr. Alan Place and Dr. Yoni Zohar on projects involving sustainable marine aquaculture.
 
 design:
-  background: 
-    color: "#e1e5f2"
+  # background: 
+  #   color: "#e1e5f2"
 ---

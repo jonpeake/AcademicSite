@@ -18,10 +18,10 @@ weight: 10
 # See https://wowchemy.com/docs/get-started/#introduce-yourself
 author: admin
 
-design:
-  background:
-    color: '#e1e5f2'
-  # dark:
-  #   background:
-  #     color: 'e1e5f2'
+# design:
+#   background:
+#     color: '#e1e5f2'
+# dark:
+#   background:
+#     color: 'e1e5f2'
 ---

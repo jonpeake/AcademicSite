@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Jonathan Peake # Website name
-baseURL: 'https://jonpeake.netlify.app/' # Website URL
+baseURL: 'https://peakeecology.science/' # Website URL
 
 ############################
 ## LANGUAGE

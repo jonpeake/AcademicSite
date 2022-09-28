@@ -21,7 +21,7 @@ author: admin
 design:
   background:
     color: '#e1e5f2'
-  dark:
-    background:
-      color: 'e1e5f2'
+  # dark:
+  #   background:
+  #     color: 'e1e5f2'
 ---

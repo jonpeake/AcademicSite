@@ -47,16 +47,16 @@ main:
     url: "#"
     weight: 80
     hasChildren: true
-  - parent: "More..."
+  - parent: "Affiliated Sites"
     name: USF Fish Ecology Lab
     url: 'https://www.marine.usf.edu/fishecology/'
-  - parent: "More..."
+  - parent: "Affiliated Sites"
     name: USF College of Marine Science
     url: 'https://www.marine.usf.edu/'
-  - parent: "More..."
+  - parent: "Affiliated Sites"
     name: FWC Fish and Wildlife Research Institute
     url: 'https://myfwc.com/research/'
-  - parent: "More..."
+  - parent: "Affiliated Sites"
     name: FWRI Fisheries-Independent Monitoring
     url: 'https://myfwc.com/research/saltwater/reef-fish/monitoring/fim-stratified-random-sampling/'
 

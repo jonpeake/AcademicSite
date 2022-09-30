@@ -2,9 +2,7 @@
 title: "First Post!"
 author: "Jonathan Peake"
 date:  2021-07-12
-output: 
-  html_document: 
-    css: assets/scss/custom.scss
+format: hugo-md
 categories: ['Introduction']
 tags: ["general", "introduction"]
 ---
@@ -15,13 +13,13 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 ## Hello everyone, I'm Jon!
 
-I will be posting semi-regular updates on my career and research endeavors, miscellaneous thoughts and musings related to my experiences in academia, and cool science content from around the web. Please feel free to explore the rest of my [website](/home/), and don't hesitate to [contact me](/home/#contact) to get in touch.
+I will be posting semi-regular updates on my career and researchasd endeavors, miscellaneous thoughts and musings related to my experiences in academia, and cool science content from around the web. Please feel free to explore the rest of my [website](/home/), and don't hesitate to [contact me](/home/#contact) to get in touch.
 
 ## About Me
 
 #### For a TLDR version, check out the [About](/authors/admin) section of the website.
 
-![Gray snapper (Lutjanus griseus) are an abundant and ubiquitous species of reef-associated fish that inhabit much of the subtropical to tropical Western Atlantic, including the Gulf of Mexico. This specimen was collected for a study comparing fish production on natural and artificial reefs on the West Florida Shelf.](/img/me-fish.jpg)
+![](me-fish.jpg "Gray snapper (*Lutjanus griseus*) are an abundant and ubiquitous species of reef-associated fish that inhabit much of the subtropical to tropical Western Atlantic, including the Gulf of Mexico. This specimen was collected for a study comparing fish production on natural and artificial reefs on the West Florida Shelf.")
 
 I was born and raised in the suburbs of Baltimore, Maryland, just a half hour from the Chesapeake Bay and a few hours from the Atlantic Ocean. I have always felt a deep connection to the natural world, and knew from an early age that I wanted to apply my curiosity to a career in the marine sciences.
 

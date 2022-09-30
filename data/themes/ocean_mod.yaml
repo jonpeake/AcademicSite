@@ -1,0 +1,27 @@
+name: ocean
+
+light:
+  primary: "#4e5e75"
+
+  # Menu
+  menu_primary: "#1D2D44" # Material 500
+  menu_text: "#fff"
+  menu_text_active: "#8c9eff" # Material Complemantary 500
+  menu_title: "#fff"
+
+  # Home sections
+  home_section_even: "#A2B2C6"
+  home_section_odd: "#e1e5f2"
+
+dark:
+  primary: "#C3D6F2"
+
+  # Menu
+  menu_primary: "#1D2D44" # 500
+  menu_text: "#fff"
+  menu_text_active: "#8c9eff" # A100
+  menu_title: "#fff"
+
+  # Home sections
+  home_section_odd: "#1a2a3d"
+  home_section_even: "#0d1826"

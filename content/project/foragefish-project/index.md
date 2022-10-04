@@ -4,7 +4,7 @@ external_link: ""
 image:
   caption: 'Image credit: [**Florida Sportsman**](http://www.floridasportsman.com/wp-content/uploads/2019/04/conserve-baitfish-fish-act.jpg)'
   placement: 1
-  focal_point: "Center"
+  focal_point: "Bottom"
 summary: Revealing the dynamics of forage fishes in estuaries along the West Florida Shelf and the factors associated with spatiotemporal variability.
 tags:
 - Forage Fish

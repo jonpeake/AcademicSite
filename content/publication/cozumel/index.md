@@ -25,8 +25,7 @@ projects:
 - Lionfish Diet
 publication: "*Food Webs*"
 publication_short: ""
-publication_types:
-- "2"
+publication_types: ["2"]
 publishDate: "2018-10-23T00:00:00Z"
 summary: We identified and enumerated prey items from a sample of over 300 lionfish from the Arrecifes de Cozumel National Park in Cozumel, Mexico. We uncovered a varied diet that transitioned from shrimp-dominated to fish-dominated over through ontogeny, including a uniquely large number of crabs in the diet.
 tags:

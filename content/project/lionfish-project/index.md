@@ -2,8 +2,8 @@
 date: "2018-04-11T00:00:00Z"
 external_link: "/publication/lionfish"
 image:
-  placement: 3
-  focal_point: "Center"
+  placement: 2
+  focal_point: "Smart"
 summary: Analyzing a large dataset of lionfish stomach contents across the western Atlantic to identify trends and patterns in lionfish diet throughout their invaded region.
 tags:
 - Lionfish

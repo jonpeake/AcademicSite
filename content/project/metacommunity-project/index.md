@@ -2,8 +2,8 @@
 date: "2021-07-14T00:00:00Z"
 external_link: ""
 image:
-  placement: 3
-  focal_point: "Center"
+  placement: 2
+  focal_point: "Smart"
 summary: Investigating broad-scale patterns of community assembly using the metacommunity concept.
 tags:
 - Metacommunity

@@ -3,8 +3,8 @@ date: "2019-08-22T00:00:00Z"
 external_link: "/publication/pinfish/"
 image:
   caption: 'Image credit: [**NOAA**](https://upload.wikimedia.org/wikipedia/commons/a/a5/Lagodon_rhomboides_NOAA.jpg)'
-  placement: 3
-  focal_point: "Center"
+  placement: 2
+  focal_point: "Smart"
 summary: Uncovering patterns of spatiotemporal variability in populations of an abundant estuarine forage fish in the eastern Gulf of Mexico
 tags:
 - Pinfish

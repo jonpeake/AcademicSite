@@ -51,5 +51,5 @@ content:
       link: 'https://twitter.com/PeakeEcology'
 
 design:
-  columns: '1'
+  columns: '2'
 ---

@@ -60,7 +60,17 @@
         <ul class="navbar-nav d-md-inline-flex">
           {{ range site.Menus.main }}
 
+          {{/* Set target for link. */}}
+          {{ $.Scratch.Set "target" "" }}
+          {{ if gt (len .URL) 4 }}
+            {{ if eq "http" (slicestr .URL 0 4) }}
+              {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
+            {{ end }}
+          {{ end }}
+
+
           {{ if .HasChildren }}
+            {{/* Set target for link. */}}
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
               {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
@@ -68,7 +78,14 @@
             </a>
             <div class="dropdown-menu">
               {{ range .Children }}
-                <a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+          {{ $.Scratch.Set "target" "" }}
+          {{ if gt (len .URL) 4 }}
+            {{ if eq "http" (slicestr .URL 0 4) }}
+              {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
+            {{ end }}
+          {{ end }}
+
+                <a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
                   {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
                 </a>
               {{ end }}
@@ -84,14 +101,10 @@
               {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
             {{ end }}
           {{ end }}
+
           {{ $.Scratch.Set "target" "" }}
-          {{ if gt (len .URL) 4 }}
-            {{ if eq "http" (slicestr .URL 0 4) }}
-              {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
-            {{ end }}
-            {{ if eq "CV" (.Name) }}
-              {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
-            {{ end }}
+          {{ if eq "CV" .Name }}
+            {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
           {{ end }}
 
           {{/* Get active page. */}}
@@ -119,7 +132,7 @@
           {{end}}
 
           <li class="nav-item">
-            <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{if eq "CV" (.Name) }} target="_blank" }}{{ end }}>
+            <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
               {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
             </a>
           </li>
@@ -129,9 +142,9 @@
 
         {{ if site.Menus.main_right | and (eq $align_menu "l") }}
         </ul>
-
         <ul class="navbar-nav ml-md-auto">
         {{ end }}
+
 
           {{ range site.Menus.main_right }}
 
@@ -141,13 +154,10 @@
           {{ if eq "http" (slicestr .URL 0 4) }}
           {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
           {{ end }}
-          {{ if eq "CV" (.Name) }}
-            {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
-          {{ end }}
           {{ end }}
 
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }} {{if eq "CV" (.Name) }} target="_blank" }}{{ end }}>
+            <a class="nav-link" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
               {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
             </a>
           </li>

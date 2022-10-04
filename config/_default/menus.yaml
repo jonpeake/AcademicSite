@@ -58,7 +58,8 @@ main:
     url: 'https://myfwc.com/research/'
   - parent: "Affiliated Sites"
     name: FWRI Fisheries-Independent Monitoring
-    url: 'https://myfwc.com/research/saltwater/reef-fish/monitoring/fim-stratified-random-sampling/'
+    url: https://myfwc.com/research/saltwater/reef-fish/monitoring/fim-stratified-random-sampling/
+    weight: 90
 
 
 # Link to a PDF of your resume/CV from the menu.

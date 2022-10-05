@@ -64,12 +64,13 @@
         </div>
         {{ if and $use_netlify_form $use_netlify_captcha }}
           <div class="form-group" data-netlify-recaptcha="true"></div>
-        {{ else if and $use_formspree_form $use_formspree_captcha }}
+
+        <button type="submit" class="btn btn-primary px-3 py-2 w-100">{{ i18n "contact_send" | default "Send" }}</button>
+      {{ else if and $use_formspree_form $use_formspree_captcha }}
           <div class="g-recaptcha" data-sitekey="{{ $st.Params.content.form.formspree.captcha_key }}"></div>
 
         {{ end }}
-        <button type="submit" class="btn btn-primary px-3 py-2 w-100">{{ i18n "contact_send" | default "Send" }}</button>
-      </form>
+        </form>
     </div>
   {{ end }}
 </div>

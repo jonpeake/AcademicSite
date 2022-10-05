@@ -75,6 +75,10 @@
 </div>
 <div class="col-md-6">
 
+
+  {{ $addr_formatted := "" }}{{/* Scoping for maps. */}}
+    {{ if $data.address.street | or $data.address.city | or $data.address.region | or $data.address.postcode | or $data.address.country }}
+      {{ $addr_formatted = partial "functions/get_address" (dict "root" . "address" $data.address) }}
   {{ if and site.Params.features.map.provider $data.coordinates.latitude }}
   <div class="d-none">
     <input id="map-provider" value="{{ lower site.Params.features.map.provider }}">
@@ -86,7 +90,7 @@
   </div>
   <div id="map"></div>
   {{ end }}
-    <ul class="fa-ul">
+  <ul class="fa-ul">
 
     {{ if $data.email }}
     <li>
@@ -106,9 +110,7 @@
     </li>
     {{ end }}
 
-    {{ $addr_formatted := "" }}{{/* Scoping for maps. */}}
-    {{ if $data.address.street | or $data.address.city | or $data.address.region | or $data.address.postcode | or $data.address.country }}
-      {{ $addr_formatted = partial "functions/get_address" (dict "root" . "address" $data.address) }}
+
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
         <span id="person-address">{{$addr_formatted}}</span>

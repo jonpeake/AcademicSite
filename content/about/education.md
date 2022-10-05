@@ -42,7 +42,7 @@ experience:
       Minor in Psychology
 
 design:
-  columns: '1'
+  columns: '2'
   # background: 
   #   color: "#A2B2C6"
 ---

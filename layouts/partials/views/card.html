@@ -19,7 +19,7 @@
 {{ else if $item.Summary }}
   {{ $summary = $item.Summary }}
 {{ end }}
-<a href="{{ $link }}" {{ $target | safeHTMLAttr }}
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
   <div class="card-simple view-card">
 
     {{ if eq $item.Type "event" }}

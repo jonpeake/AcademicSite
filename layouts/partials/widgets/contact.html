@@ -75,7 +75,18 @@
 </div>
 <div class="col-md-6">
 
-  <ul class="fa-ul">
+  {{ if and site.Params.features.map.provider $data.coordinates.latitude }}
+  <div class="d-none">
+    <input id="map-provider" value="{{ lower site.Params.features.map.provider }}">
+    <input id="map-lat" value="{{ $data.coordinates.latitude }}">
+    <input id="map-lng" value="{{ $data.coordinates.longitude }}">
+    <input id="map-dir" value="{{ $addr_formatted }}">
+    <input id="map-zoom" value="{{ site.Params.features.map.zoom | default "15" }}">
+    <input id="map-api-key" value="{{ site.Params.features.map.api_key }}">
+  </div>
+  <div id="map"></div>
+  {{ end }}
+    <ul class="fa-ul">
 
     {{ if $data.email }}
     <li>
@@ -130,20 +141,6 @@
       <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "book_appointment" | default "Book an appointment" }}</a>
     </li>
     {{ end }}
-<br>
-
-
-  {{ if and site.Params.features.map.provider $data.coordinates.latitude }}
-  <div class="d-none">
-    <input id="map-provider" value="{{ lower site.Params.features.map.provider }}">
-    <input id="map-lat" value="{{ $data.coordinates.latitude }}">
-    <input id="map-lng" value="{{ $data.coordinates.longitude }}">
-    <input id="map-dir" value="{{ $addr_formatted }}">
-    <input id="map-zoom" value="{{ site.Params.features.map.zoom | default "15" }}">
-    <input id="map-api-key" value="{{ site.Params.features.map.api_key }}">
-  </div>
-  <div id="map"></div>
-  {{ end }}
 </div>
 <div col-12>
   <ul class="fa-ul">

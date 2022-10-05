@@ -59,16 +59,17 @@
             <input type="file" name="file" class="form-control w-100" id="fileUpload" placeholder="{{ i18n "contact_attachment" | default "Attach file" }}">
           </div>
         {{ end }}
-        <button type="submit" class="btn btn-primary px-3 py-2 w-50">{{ i18n "contact_send" | default "Send" }}</button>
         <div class="d-none">
           <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
         </div>
         {{ if and $use_netlify_form $use_netlify_captcha }}
-          <div class="form-group w-50" data-netlify-recaptcha="true"></div>
+          <div class="form-group form-inline w-50" data-netlify-recaptcha="true"></div>
         {{ else if and $use_formspree_form $use_formspree_captcha }}
           <div class="g-recaptcha" data-sitekey="{{ $st.Params.content.form.formspree.captcha_key }}"></div>
 
         {{ end }}
+        <button type="submit" class="btn btn-primary px-3 py-2 w-50">{{ i18n "contact_send" | default "Send" }}</button>
+
       </form>
     </div>
   {{ end }}

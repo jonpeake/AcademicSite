@@ -30,7 +30,7 @@ content:
   email: 
   phone: 
   address:
-    street: 830 1st St S
+    street: 830 1st St S, MSL 227
     city: St. Petersburg
     region: FL
     postcode: '33705'
@@ -39,7 +39,6 @@ content:
   coordinates:
     latitude: '27.760749'
     longitude: '-82.632407'
-  directions: MSL 227
   office_hours:
     # - 'Monday 10:00 to 13:00'
     # - 'Wednesday 09:00 to 10:00'

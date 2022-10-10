@@ -6,7 +6,6 @@ categories: ['Introduction']
 tags: ["general", "introduction"]
 draft: true
 format: hugo-md
-
 ---
 
 # This is a test

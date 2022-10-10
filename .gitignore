@@ -1,4 +1,4 @@
-# IDEs
+# IDEAs
 .idea/
 
 # Hugo
@@ -9,3 +9,8 @@ node_modules/
 go.sum
 .hugo_build.lock
 .Rproj.user
+
+# R Specific
+.Rprofile
+.RData
+.Rhistory

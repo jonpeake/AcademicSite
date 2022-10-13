@@ -57,8 +57,8 @@ feature:
       ∙ MATLAB ∙  
       ∙ Scilab ∙  
       ∙ PRIMER ∙  
-      ∙ Python Programming ∙
-      ∙ SQL Database Management ∙
+      ∙ Python Programming ∙  
+      ∙ SQL Database Management ∙  
       ∙ Access Database Management ∙  
       ∙ Visual Basic for Applications ∙  
       ∙ Geographic Information Systems ∙  

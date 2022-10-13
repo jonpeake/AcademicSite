@@ -23,7 +23,7 @@ publication_short: "*Ecosphere*"
 publication_types:
   - "2"
 publishDate: "2022-05-12T00:00:00Z"
-summary: Forage fish play an important role in nutrient and energy transfer through the food web. In this study, we analyzed 20 years or forage fish community composition and abundance data to investigate spatiotemporal variability in community structure and quantify associations with habitat. we uncovered significant regional structuring of forage fish communities, coupled with a strong association with habitat characteristics related to latitudinal effects and basal resource regime. We additionally revealed significant subdecadal periodicity potentially associated with bottom-up effects of global climatic cycles. The significant association of forage fish communities with habitat regime shown in this study underlies the importance of continued monitoring of these communities.
+summary: Forage fish play an important role in nutrient and energy transfer through the food web. In this study, we analyzed 20 years or forage fish community composition and abundance data to investigate spatiotemporal variability in community structure and quantify associations with habitat. We uncovered significant regional structuring of forage fish communities, coupled with a strong association with habitat characteristics related to latitudinal effects and basal resource regime. We additionally revealed significant subdecadal periodicity potentially associated with bottom-up effects of global climatic cycles. The significant association of forage fish communities with habitat regime shown in this study underlies the importance of continued monitoring of these communities.
 tags:
   - Forage Fish
   - Community Dynamics

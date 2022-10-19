@@ -20,8 +20,8 @@ marketing:
     org_name: ''
     description: 'I am a PhD Candidate at the University of South Florida College of Marine Science. Marine ecologist, fisheries biologist, data scientist, and ecological statistician.'
     twitter: 'PeakeEcology'
-  analytics:
-    google_analytics: 'G-31ZN9ZYV9Y'
+
+  google_analytics: 'G-31ZN9ZYV9Y'
   verification:
     google: '0uJ4X7_4AokZEXn7sRUzeEzVawbu7E6AqsfuDlkNmKs'
 

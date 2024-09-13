@@ -6,15 +6,15 @@ title: Jonathan Peake
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate in Marine Resource Assessment, Fisheries Biologist
+role: Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: NOAA Fisheries
+    url: https://www.fisheries.noaa.gov/
   - name: University of South Florida
           College of Marine Science
     url: https://www.usf.edu/marine-science/
-  - name: Florida Fish and Wildlife Research Institute
-    url: https://myfwc.com/research/
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am a Data Scientist with the NOAA Fisheries Open Science program and a PhD Candidate at the University of South Florida College of Marine Science. My research interests include open science,  marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, spatial and community analysis in R, and species distribution modeling.

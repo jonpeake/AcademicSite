@@ -24,14 +24,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Data Scientist
+    company: National Oceanic and Atmospheric Administration, National Marine Fisheries Service
+    company_url: ''
+    company_logo: 
+    location: Seattle, WA
+    date_start: '2024-09-09'
+    date_end: ''
+    description: Serving as a liason for the NOAA Fisheries Open Science Initiative. Providing technical training and support for open science and data science tools and workflows. Evaluating novel tools for improving data science workflows throughout NOAA Fisheries.
+
   - title: Associate Research Scientist
     company: Florida Fish and Wildlife Research Institute
     company_url: ''
     company_logo: 
     location: St. Petersburg, FL
     date_start: '2021-11-22'
-    date_end: ''
-    description: Providing computational, field, and laboratory support for the Fisheries-Independent Monitoring program to provide data for fisheries management. Investigating ecological questions using fisheries-independent data and publishing results for use by the scientific community.
+    date_end: '2024-09-26'
+    description: Provided computational, field, and laboratory support for the Fisheries-Independent Monitoring program to provide data for fisheries management. Investigated ecological questions using fisheries-independent data and publishing results for use by the scientific community.
 
   - title: Graduate Student/Laboratory Technician
     company: University of South Florida College of Marine Science

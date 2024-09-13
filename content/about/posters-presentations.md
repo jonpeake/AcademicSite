@@ -26,6 +26,21 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+  - title: Species assembly processes in a marine shelf groundfish metacommunity
+    organization: Ecological Society of America
+    date_start: '2024-08-08'
+    description: Long Beach, CA — Poster
+
+  - title: Species responses to habitat, dispersal, and interactions in an estuarine metacommunity
+    organization: Ecological Society of America
+    date_start: '2023-08-09'
+    description: Portland, OR — Oral Presentation
+
+  - title: Community dynamics of estuarine forage fishes
+    organization: Florida Chapter of the American Fisheries Society
+    date_start: '2023-05-11'
+    description: St. Augustine, FL — Oral Presentation
+
   - title: Community dynamics of estuarine forage fishes
     organization: American Fisheries Society
     date_start: '2021-11-06'

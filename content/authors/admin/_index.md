@@ -17,13 +17,14 @@ organizations:
     url: https://myfwc.com/research/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a PhD Candidate at the University of South Florida College of Marine Science and a fisheries biologist at the Florida Fish and Wildlife Research Institute. My research interests include marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, open science, spatial and community analysis in R, and species distribution modeling.
+bio: I am a Data Scientist with the NOAA Fisheries Open Science program and a PhD Candidate at the University of South Florida College of Marine Science. My research interests include open science,  marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, spatial and community analysis in R, and species distribution modeling.
+
 
 # Interests to show in About widget
 interests:
+  - Open Science
   - Marine Ecology
   - Spatiotemporal Community Dynamics
-  - Open Source Science
   - R Statistical Coding
   - Species distribution modeling
 
@@ -42,12 +43,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/PeakeEcology
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=qOAxjfsAAAAJ&hl=en
+    link: https://scholar.google.com/citations?user=tv14lt4AAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/jonpeake
@@ -60,7 +58,7 @@ social:
 # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: /uploads/Peake_CV_2022.pdf
+    link: /uploads/Peake_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -69,4 +67,4 @@ email: ''
 highlight_name: true
 ---
 
-I am a PhD Candidate studying broad-scale dynamics of western Atlantic teleost communities. I also hold a position as a research scientist at the Florida Fish and Wildlife Research Institute, where I provide computational, field, and laboratory support for the Fisheries-Independent Monitoring program. In addition to being a fish geek, I have a passion for mathematics and hold a Bachelor of Science degree from University of Miami with majors in Marine Science, Biology, and Statistics. My research interests include marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, open source science, spatial and community analysis in R, and species distribution modeling. I am particularly fascinated with metacommunity theory, which seeks to reconcile the local and regional processes that influence the distribution of organisms in space and time.
+I am a Data Scientist with the National Oceanic and Atmospheric Administration's National Marine Fisheries Service. As a liaison for the NOAA Fisheries Open Science Initiative, I provide support and training to modernize and streamline NOAA Fisheries data workflows. I am also a PhD Candidate studying broad-scale dynamics of western Atlantic teleost communities. In addition to being a fish geek, I have a passion for mathematics and hold a Bachelor of Science degree from University of Miami with majors in Marine Science, Biology, and Statistics. My research interests include marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, open source science, spatial and community analysis in R, and species distribution modeling. I am particularly fascinated with metacommunity theory, which seeks to reconcile the local and regional processes that influence the distribution of organisms in space and time.

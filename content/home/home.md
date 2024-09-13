@@ -43,4 +43,4 @@ cta_alt:
   label: "Contact me"
 ---
 
-I am a PhD Candidate at the University of South Florida College of Marine Science, as well as a research scientist for the Florida Fish and Wildife Research Institute. My research interests include marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, open source science, spatial and community analysis in R, and species distribution modeling. Check out my latest projects and updates below!
+I am a Data Scientist with the NOAA Fisheries Open Science program and a PhD Candidate at the University of South Florida College of Marine Science. My research interests include open science,  marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, spatial and community analysis in R, and species distribution modeling. Check out my latest projects and updates below!

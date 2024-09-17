@@ -41,7 +41,7 @@ main:
     url: '#contact'
     weight: 60
   - name: CV
-    url: /uploads/Peake_CV_2022.pdf
+    url: /uploads/Peake_CV.pdf
     weight: 70
   - name: "Affiliated Sites"
     url: "#"

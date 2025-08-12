@@ -1,0 +1,26 @@
+---
+title: 'Life update: (Ph)inishe(D)'
+author: Jonathan Peake
+date: 2025-08-12T00:00:00.000Z
+categories:
+  - Updates
+tags:
+  - general
+  - update
+format: hugo-md
+---
+
+
+So, as it turns out, content creation is not particularly easy, especially when one is attempting to wrap up a PhD program! While I had envisioned making more than just the one single "welcome" blog post since the inception of my website a little over 4 years ago, my personal and professional lives had other ideas. So here's a quick update of the things that have happened since my last post:
+
+-   I started a position with the Florida Fish and Wildlife Conservation Commission as an Associate Research Scientist
+
+-   I transitioned into a new position with the National Oceanic and Atmospheric Administration as a Data Scientist in support of the NOAA Fisheries Open Science Initiative
+
+-   I defended my doctoral dissertation on coastal and marine metacommunity dynamics in the western Atlantic
+
+-   My fiance and I moved to the opposite corner of the country
+
+## From "blog" to "digital garden"
+
+Going forward, I plan to deprecate this blog in favor of a [digital garden](https://maggieappleton.com/garden-history). I don't know exactly how this will look, but generally speaking a digital garden is less structured, less rigid, and less perfect than your typical blog. It's a place to write down and organize thoughts, notes, and personal knowledge. I've recently been working more with [Obsidian](https://obsidian.md/) note-taking software, and plan to use it as springboard for my digital garden. Feel free to follow along with my gardening journey; I will try to provide context and reflection on my content for readers, but please keep in mind that this is my personal space for learning in public. It may be messy, it may be unrefined, and it may not quite make sense. That's okay! If you have feedback or constructive criticism, please do so with these things in mind. Take a look at the [Digital Garden Terms of Service](https://www.swyx.io/digital-garden-tos) for a quick rundown of what to expect.

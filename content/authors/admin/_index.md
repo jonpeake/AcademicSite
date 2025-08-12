@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jonathan Peake
+title: Jonathan Peake, Ph.D.
 
 # Is this the primary user of the site?
 superuser: true
@@ -12,12 +12,9 @@ role: Data Scientist
 organizations:
   - name: NOAA Fisheries
     url: https://www.fisheries.noaa.gov/
-  - name: University of South Florida
-          College of Marine Science
-    url: https://www.usf.edu/marine-science/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Data Scientist with the NOAA Fisheries Open Science program and a PhD Candidate at the University of South Florida College of Marine Science. My research interests include open science,  marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, spatial and community analysis in R, and species distribution modeling.
+bio: I am a Data Scientist with the NOAA Fisheries Open Science program. My research interests include open science, marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, spatial and community analysis in R, and species distribution modeling.
 
 
 # Interests to show in About widget
@@ -31,9 +28,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: Doctor of Philosophy in Marine Science
+      institution: University of South Florida College of Marine Science
+      year: 2024
     - course: BSc in Marine Science, Biology, and Mathematics
       institution: University of Miami
-      year: 2012
+      year: 2016
       
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -67,4 +67,4 @@ email: ''
 highlight_name: true
 ---
 
-I am a Data Scientist with the National Oceanic and Atmospheric Administration's National Marine Fisheries Service. As a liaison for the NOAA Fisheries Open Science Initiative, I provide support and training to modernize and streamline NOAA Fisheries data workflows. I am also a PhD Candidate studying broad-scale dynamics of western Atlantic teleost communities. In addition to being a fish geek, I have a passion for mathematics and hold a Bachelor of Science degree from University of Miami with majors in Marine Science, Biology, and Statistics. My research interests include marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, open source science, spatial and community analysis in R, and species distribution modeling. I am particularly fascinated with metacommunity theory, which seeks to reconcile the local and regional processes that influence the distribution of organisms in space and time.
+I am a Data Scientist with the National Oceanic and Atmospheric Administration's National Marine Fisheries Service. As a liaison for the NOAA Fisheries Open Science Initiative, I provide support and training to modernize and streamline NOAA Fisheries data workflows. I recently completed my doctoral degree studying broad-scale dynamics of western Atlantic teleost communities. In addition to being a fish geek, I have a passion for mathematics and hold a Bachelor of Science degree from University of Miami with majors in Marine Science, Biology, and Statistics. My research interests include marine ecology, spatiotemporal dynamics of fishes across multiple scales of space, time, and biological organization, open source science, spatial and community analysis in R, and species distribution modeling. I am particularly fascinated with metacommunity theory, which seeks to reconcile the local and regional processes that influence the distribution of organisms in space and time.

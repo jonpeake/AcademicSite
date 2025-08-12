@@ -48,7 +48,7 @@ experience:
     company_logo: 
     location: St. Petersburg, FL
     date_start: '2016-05-15'
-    date_end: ''
+    date_end: '2024-12-13'
     description: Leading study on spatiotemporal dynamics of western Atlantic marine metacommunities. Collaborating on several projects focusing on fish ecology in the eastern Gulf of Mexico.
 
   - title: Aquarium Laboratory Manager

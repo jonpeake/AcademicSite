@@ -1,0 +1,9 @@
+---
+title: "Life update: (Ph)inishe(D)"
+author: "Jonathan Peake"
+date:  2025-08-11
+categories: ['Updates']
+tags: ["general", "update"]
+draft: true
+format: hugo-md
+---

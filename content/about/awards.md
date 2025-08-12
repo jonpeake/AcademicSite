@@ -26,6 +26,10 @@ date_format: '2006'
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+  - title: Fisheries-Independent Monitoring Big Fish Award, Scientific
+    date_start: '2022-03-25'
+    organization: Florida Fish and Wildlife Conservation Commission
+  
   - title: 'Conference Presentation Grant Program Award'
     date_start: '2021-11-12'
     organization: University of South Florida Student Government
@@ -50,6 +54,10 @@ item:
     date_start: '2018-03-30'
     date_end: '2019-03-30'
     organization: University of South Florida College of Marine Science
+  
+  - title: 'Florida Forage Fish Research Program Fellowship'
+    date_start: '2018-03-30'
+    organization: Florida Forage Fish Coalition
   
   - title: 'Student Travel Grant'
     date_start: '2017-08-10'

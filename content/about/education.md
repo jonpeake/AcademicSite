@@ -24,12 +24,12 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Ph.D. Candidate
+  - title: Doctor of Philosophy
     company: University of South Florida College of Marine Science
     location: St. Petersburg, FL
     date_start: '2016-08-15'
-    date_end: ''
-    description: Ph.D. Candidate in Marine Science, Marine Resource Concentration
+    date_end: '2024-12-13'
+    description: Ph.D. in Marine Science, Marine Resource Concentration
 
   - title: Bachelor of Science
     company: University of Miami

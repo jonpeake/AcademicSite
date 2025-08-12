@@ -30,25 +30,25 @@ content:
   email: 
   phone: 
   address:
-    street: 830 1st St S
-    city: St. Petersburg
-    region: FL
-    postcode: '33705'
+    street: 2725 Montlake Blvd E
+    city: Seattle
+    region: WA
+    postcode: '98112'
     country: United States
     country_code: US
-  directions: MSL 227
+  directions: 316E
   coordinates:
-    latitude: '27.760749'
-    longitude: '-82.632407'
+    latitude: '47.645340'
+    longitude: '-122.304703'
   office_hours:
     # - 'Monday 10:00 to 13:00'
     # - 'Wednesday 09:00 to 10:00'
   appointment_url: 
   contact_links:
-    - icon: twitter
+    - icon: bluesky
       icon_pack: fab
-      name: Follow me on Twitter
-      link: 'https://twitter.com/PeakeEcology'
+      name: Follow me on BlueSky
+      link: 'https://bsky.app/profile/peakeecology.science'
 
 design:
   columns: '1'

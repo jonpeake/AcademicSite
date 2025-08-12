@@ -24,6 +24,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: NMFS Open Science Workshop Instructor
+    company: National Oceanic and Atmospheric Administration, National Marine Fisheries Service
+    location: Seattle, WA
+    date_start: '2024-09-09'
+    date_end: ''
+    description: |
+      - Instructor for the NOAA Fisheries Open Science Initiative's workshop series
+      - Guided participants through the process of creating reproducible workflows using Quarto
+      - Demonstrated the use of GitHub for version control, collaboration, and project management
+
   - title: Teaching Assistant
     company: University of South Florida College of Marine Science
     location: St. Petersburg, FL

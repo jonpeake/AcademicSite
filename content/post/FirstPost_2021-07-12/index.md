@@ -9,7 +9,7 @@ tags: ["general", "introduction"]
 
 ## Hello everyone, I’m Jon!
 
-I will be posting semi-regular updates on my career and researchasd endeavors, miscellaneous thoughts and musings related to my experiences in academia, and cool science content from around the web. Please feel free to explore the rest of my [website](/home/), and don’t hesitate to [contact me](/home/#contact) to get in touch.
+I will be posting semi-regular updates on my career and research endeavors, miscellaneous thoughts and musings related to my experiences in academia, and cool science content from around the web. Please feel free to explore the rest of my [website](/home/), and don’t hesitate to [contact me](/home/#contact) to get in touch.
 
 ## About Me
 
